@@ -1,0 +1,13 @@
+
+.todoList {
+  margin: auto;
+  max-width: 500px;
+}
+
+.todoList button {
+  position: absolute;
+  right: 33vw;
+  height: 6vh;
+  width: 8vw;
+  font-size: 16px;
+}

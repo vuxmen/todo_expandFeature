@@ -1,0 +1,53 @@
+.listTask {
+  margin-bottom: 2rem;
+}
+.listTask input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: #ffffff;
+  border: 1px solid gray;
+  border-radius: 100%;
+}
+.listTask input[type="checkbox"]:after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  left: 6px;
+  width: 5px;
+  height: 10px;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  transform: rotate(45deg);
+}
+
+.listTask input[type="checkbox"]:checked {
+  background: #327dff;
+  outline: none;
+  border: 1px solid rgba(50, 125, 255, 1);
+}
+.listTask input:focus,
+.listTask input:active {
+  outline: none;
+}
+.listTask .wrapItem input:checked + label {
+  text-decoration: line-through;
+  color: #968888;
+}
+.listTask .fas.fa-chevron-down {
+  border: none;
+  background: transparent;
+  font-size: 16px;
+}
+.listTask .newColorClass {
+  color: red;
+}
+
+.listTask .listName {
+  padding-left: 1.8rem;
+  padding-right: 0.2rem;
+  font-size: 1.5em;
+  font-weight: bold;
+}

@@ -1,0 +1,19 @@
+.heading input {
+  border: 1px solid gray;
+  padding: 15px;
+  margin: 10px 30px;
+  background: white;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  border-radius: 5px;
+}
+.heading input {
+  width: 82%;
+  margin-bottom: 50px;
+}
+.heading h2, .heading h1 {
+  padding: 1.5rem 0 0 1.8rem;
+}
+
